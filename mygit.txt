@@ -6,9 +6,12 @@ git config --global user.email "zbk147@126.com"
 cd githome
 mkdir firstRepository
 cd firstRepository
-pwd
+pwd			//显示当前目录路径
 git init	//新建git仓库
 ls -ah		//显示隐藏文件
 git add mygit.txt   
 git add file2.txt file3.txt	//添加文件(可添加多个可多次添加)
 git commit -m "这里的内容随便填,一般是版本信息"	//一次性将添加的文件提交
+
+git status	//显示当前工作区状态
+git diff mygit.txt	//显示文件修改内容
