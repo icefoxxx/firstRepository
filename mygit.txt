@@ -15,3 +15,7 @@ git commit -m "这里的内容随便填,一般是版本信息"	//一次性将添
 
 git status	//显示当前工作区状态
 git diff mygit.txt	//显示文件修改内容
+git add mygit.txt
+git status
+git commit -m "添加了某些改动"
+git status
