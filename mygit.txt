@@ -1,0 +1,11 @@
+git is version controlsystem
+git is free software
+
+git config --global user.name "zbk"
+git config --global user.email "zbk147@126.com"
+cd githome
+mkdir firstRepository
+cd firstRepository
+pwd
+git init	//新建git仓库
+ls -ah		//显示隐藏文件
