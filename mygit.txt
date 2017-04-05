@@ -25,3 +25,5 @@ git log --pretty=online		//以行的方式输出历史记录
 
 git add --all	//全部提交?
 git add -A	//全部提交?		不知道那个可以用
+
+//1.5
